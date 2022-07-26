@@ -1,0 +1,33 @@
+{
+  "RSpec": {
+    "coverage": {
+      "/home/davide/code/rails_ci/app/controllers/hello_world_controller.rb": {
+        "lines": [
+          null,
+          null,
+          1,
+          1,
+          1,
+          null,
+          null
+        ]
+      },
+      "/home/davide/code/rails_ci/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/home/davide/code/rails_ci/app/models/application_record.rb": {
+        "lines": [
+          0,
+          0,
+          0
+        ],
+        "branches": {
+        }
+      }
+    },
+    "timestamp": 1658864244
+  }
+}
