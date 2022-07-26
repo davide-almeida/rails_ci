@@ -1,0 +1,52 @@
+require:
+  - 'rubocop-performance'
+  - 'rubocop-rails'
+  - 'rubocop-rspec'
+
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'bin/**/*'
+    - 'vendor/**/*'
+    - 'db/migrate/*'
+    - 'db/schema.rb'
+    - 'config/application.rb'
+    - 'config/routes.rb'
+    - 'node_modules/**/*'
+  TargetRailsVersion: 7.0.3.1
+  TargetRubyVersion: 3.1.0
+
+Style/Documentation:
+  Enabled: false
+
+RSpec/MultipleExpectations:
+  Enabled: false
+RSpec/ExampleLength:
+  Max: 50
+
+Metrics/BlockLength:
+  IgnoredMethods: ['describe', 'context']
+
+Rails/FilePath:
+  Enabled: false
+
+Rails/I18nLocaleTexts:
+  Enabled: false
+
+Style/ClassAndModuleChildren:
+  EnforcedStyle: compact
+
+Rails/Output:
+  Enabled: false
+
+Metrics/AbcSize:
+  Max: 25
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: never
+
+RSpec/VerifiedDoubleReference:
+  EnforcedStyle: string
+
+Metrics/MethodLength:
+  Max: 15
