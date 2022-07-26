@@ -1,7 +1,7 @@
 # The project
 Hi folks!
 
-This is a simple and "clean" `Ruby on Rails` project with some gems and `continuous integration`.
+This is a Ruby on Rails project template that contains just a few essential gems and configured continuous integration.
 
 ## About
 
@@ -21,7 +21,7 @@ rails new rails_ci -T --database=postgresql
 | `brakeman` | https://github.com/presidentbeef/brakeman |
 | `bundler-audit` | https://github.com/rubysec/bundler-audit |
 
-## Some importants settings can find in:
+## Some important settings can be found at:
 
 Continuous integration settings:
 ```
