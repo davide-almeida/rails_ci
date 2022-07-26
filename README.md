@@ -1,24 +1,22 @@
-# README
+# The project
+Hi folks!
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This is a simple and "clean" `Ruby on Rails` project with some gems and `continuous integration`.
 
-Things you may want to cover:
+## Gem's list
+| Gem | Link |
+| --- | --- |
+| `rubocop-rails` | https://github.com/rubocop/rubocop-rails |
+| `rubocop-performance` | https://github.com/rubocop/rubocop-performance |
+| `rubocop-rspec` | https://github.com/rubocop/rubocop-rspec |
+| `rspec-rails` | https://github.com/rspec/rspec-rails |
+| `simplecov` | https://github.com/simplecov-ruby/simplecov |
+| `brakeman` | https://github.com/presidentbeef/brakeman |
+| `bundler-audit` | https://github.com/rubysec/bundler-audit |
 
-* Ruby version
+## About
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+This project is created with:
+```
+rails new rails_ci -T --database=postgresql
+```
