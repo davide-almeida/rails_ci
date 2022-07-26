@@ -3,6 +3,13 @@ Hi folks!
 
 This is a simple and "clean" `Ruby on Rails` project with some gems and `continuous integration`.
 
+## About
+
+This project is created with:
+```
+rails new rails_ci -T --database=postgresql
+```
+
 ## Gem's list
 | Gem | Link |
 | --- | --- |
@@ -14,9 +21,24 @@ This is a simple and "clean" `Ruby on Rails` project with some gems and `continu
 | `brakeman` | https://github.com/presidentbeef/brakeman |
 | `bundler-audit` | https://github.com/rubysec/bundler-audit |
 
-## About
+## Some importants settings can find in:
 
-This project is created with:
+Continuous integration settings:
 ```
-rails new rails_ci -T --database=postgresql
+.github/workflows/rubyonrails.yml
+```
+
+Rubocop settings:
+```
+.rubocop
+```
+
+Rspec settings:
+```
+/specs/rails_helper.rb
+```
+
+Gemfile:
+```
+Gemfile
 ```
